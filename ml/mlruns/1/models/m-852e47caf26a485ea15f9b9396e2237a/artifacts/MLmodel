@@ -1,0 +1,23 @@
+artifact_path: file:F:/AgroSense/ml/mlruns/1/models/m-852e47caf26a485ea15f9b9396e2237a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-852e47caf26a485ea15f9b9396e2237a
+model_size_bytes: 1062288
+model_uuid: m-852e47caf26a485ea15f9b9396e2237a
+prompts: null
+run_id: 8c461aea367446faad86f040290282cd
+utc_time_created: '2026-04-11 18:00:47.929173'
