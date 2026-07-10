@@ -1,0 +1,23 @@
+artifact_path: file:F:/AgroSense/ml/mlruns/2/models/m-4b53a05f09784fb1aeb60b54b12ee52d/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.13.1
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.11.0+cpu
+mlflow_version: 3.11.1
+model_id: m-4b53a05f09784fb1aeb60b54b12ee52d
+model_size_bytes: 208961
+model_uuid: m-4b53a05f09784fb1aeb60b54b12ee52d
+prompts: null
+run_id: 28851f9b6ce940bf925c0bfb01a6c478
+utc_time_created: '2026-04-11 19:01:33.076015'

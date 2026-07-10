@@ -1,0 +1,36 @@
+artifact_path: file:F:/AgroSense/ml/mlruns/1/models/m-4b286c21dcab403093bef55ee16177a7/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.13.1
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: ubj
+    xgb_version: 3.2.0
+is_signature_from_type_hint: false
+mlflow_version: 3.11.1
+model_id: m-4b286c21dcab403093bef55ee16177a7
+model_size_bytes: 378680
+model_uuid: m-4b286c21dcab403093bef55ee16177a7
+prompts: null
+run_id: 74d49b04ec904386a648e68ca971b4d4
+signature:
+  inputs: '[{"type": "long", "name": "rainfall_mm", "required": true}, {"type": "long",
+    "name": "avg_temp_c", "required": true}, {"type": "long", "name": "humidity_pct",
+    "required": true}, {"type": "long", "name": "soil_nitrogen", "required": true},
+    {"type": "long", "name": "soil_phosphorus", "required": true}, {"type": "double",
+    "name": "soil_ph", "required": true}, {"type": "double", "name": "ndvi_mean",
+    "required": true}, {"type": "long", "name": "sowing_week", "required": true},
+    {"type": "long", "name": "irrigated_area_pct", "required": true}, {"type": "double",
+    "name": "prev_year_yield", "required": true}, {"type": "long", "name": "crop_id",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-04-11 18:16:59.908434'
