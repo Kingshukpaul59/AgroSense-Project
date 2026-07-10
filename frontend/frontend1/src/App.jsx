@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Sidebar        from "./components/layout/Sidebar";
-import TopBar         from "./components/layout/TopBar";
-import Dashboard      from "./pages/Dashboard";
-import YieldForecast  from "./pages/YieldForecast";
-import DemandTrends   from "./pages/DemandTrends";
-import Advisory       from "./pages/Advisory";
-import WeatherStation from "./pages/WeatherStation";
+import Sidebar        from "./components/layout/Sidebar.jsx";
+import TopBar         from "./components/layout/TopBar.jsx";
+import Dashboard      from "./pages/Dashboard.jsx";
+import YieldForecast  from "./pages/YieldForecast.jsx";
+import DemandTrends   from "./pages/DemandTrends.jsx";
+import Advisory       from "./pages/Advisory.jsx";
+import WeatherStation from "./pages/WeatherStation.jsx";
 
 function Shell() {
   return (
